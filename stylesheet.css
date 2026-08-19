@@ -1,0 +1,189 @@
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    height: 48px;
+    background-color: #cee4c0fa;
+    align-items: center;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+section{
+    scroll-margin-top: 120px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title{
+    margin-right: auto;
+    font-size: 52px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.head{
+    size: 50px;
+    
+}
+
+.head nav {
+    display: flex;
+    gap: 30px;
+}
+
+.head nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.head nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+/* メイン画像 */
+
+.hero-image {
+    width: 500px;
+    height: 500px;
+    border: 4px solid #554c46;
+    object-fit: cover;
+}
+
+
+/* タイトル */
+
+.hero h1 {
+    font-size: 48px;
+}
+
+
+/* メニュー */
+
+.hero nav {
+    display: flex;
+    gap: 30px;
+}
+
+.hero nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero nav a:hover {
+    text-decoration: underline;
+}
+
+.hero div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.profile{
+	width: 360px;             /* 画像サイズを指定 */
+	height: 360px;
+	border-radius: 50%;       /* 丸くする */
+	object-fit: cover;        /* はみ出た部分を中央で切り取り */
+    border: 4px solid #554c46
+  }
+  .profile__content{
+    display: flex;
+    justify-content: baseline;
+    padding-top: 48px;
+    
+    
+  }
+
+.subttl {
+	position: relative;
+    border-bottom: 6px solid #eaeaea;
+    line-height: 1;
+    padding: 12px 0 6px 12px;
+    margin: 0 12px 18px;
+    font-size: 24px;
+}    
+.subttl::before {
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	width: 20%;
+	height: 6px;
+	content: '';
+	background: #60A13E;
+}
+.flexbox {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+.profile__img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.detail {
+	padding: 0 10px 30px 30px;
+}
+
+.detail__ttl {
+    position: relative;
+    border-bottom: 3px solid #96d49f;
+    max-width: max-content;
+    padding: 6px;
+    margin: 12px 0 18px;
+    font-size: 20px;
+    color: #1f1f1f;
+}
+
+.detail__list {
+    display: flex;
+	font-size: 16px;
+    flex-direction: column;
+}
+
+.center__link{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.center__link:hover{
+    text-decoration: underline;
+}
+
+.background_setting{
+    height: 88vh;
+}
+
+.footer {
+	background: #4f4f4f;
+    width: 100%;
+    padding: 24px 0 18px;
+    text-align: center;
+    color: #ffffff;
+}
