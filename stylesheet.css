@@ -4,7 +4,7 @@ body{
 }
 header{
     display: flex;
-    height: 52px;
+    max-height: 52px;
     background-color: #cee4c0fa;
     align-items: center;
     padding: 20px 40px;
