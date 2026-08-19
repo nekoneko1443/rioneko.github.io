@@ -208,9 +208,11 @@ html {
 
 @media (max-width: 768px) {
 
+    /* ヘッダー */
     header {
         height: auto;
         padding: 15px 20px;
+        flex-wrap: wrap;
     }
 
     .title {
@@ -225,6 +227,8 @@ html {
         font-size: 14px;
     }
 
+
+    /* 最初のメイン部分 */
     .hero {
         width: 100%;
         height: auto;
@@ -247,5 +251,13 @@ html {
 
     .hero h1 {
         font-size: 32px;
+    }
+
+    .hero nav {
+        gap: 15px;
+    }
+
+    .hero nav a {
+        font-size: 18px;
     }
 }
