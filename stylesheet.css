@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+    .flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* =========================
    基本設定
 ========================= */
@@ -520,9 +527,4 @@ section {
     }
 }
 
-@media (max-width: 768px) {
-    .flexbox {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
