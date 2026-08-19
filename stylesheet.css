@@ -1,8 +1,6 @@
 @media (max-width: 768px) {
-    .flexbox {
-        display: flex;
+    .profile__content {
         flex-direction: column-reverse;
-        align-items: center;
         gap: 30px;
     }
 }
